@@ -9,7 +9,16 @@ packages = [{include = "data_structure"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pre-commit = "^3.0.4"
+pytest-cov = "^4.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.0.0"
+flake8 = "^6.0.0"
+black = "^23.1.0"
+pytest = "^7.2.1"
+pynvim = "^0.4.3"
 
 [build-system]
 requires = ["poetry-core"]
